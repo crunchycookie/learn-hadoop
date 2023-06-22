@@ -15,3 +15,9 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Hadoop
+hadoop-3.3.5.tar.gz
+hadoop-3.3.5
+
+.idea
