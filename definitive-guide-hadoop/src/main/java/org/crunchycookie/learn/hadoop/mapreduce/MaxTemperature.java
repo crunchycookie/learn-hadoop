@@ -28,6 +28,8 @@ public class MaxTemperature {
         job.setMapperClass(MaxTemperatureMapper.class);
         job.setReducerClass(MaxTemperatureReducer.class);
 
+        job.setCombinerClass(MaxTemperatureReducer.class);
+
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
 
